@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/logo.svg">
+    <title>Салон красоты TOPWAY</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav_content">
+                <a href="index.html">
+                    <img src="img/logo2.svg" alt="logo">
+                </a>
+                <ul class="menu">
+                    <li><a href="index.html" class="active">Главная</a></li>
+                    <li><a href="pages/news.html">Наши работы</a></li>
+                    <li><a href="pages/documents.html">Документы</a></li>
+                    <li><a href="pages/services.html">Услуги</a></li>
+                    <li><a href="pages/contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <div class="slider">
+                <img class="slider-image" src="img/gallery1.png" alt="Image1">
+                <img class="slider-image" src="img/gallery2.png" alt="Image2">
+                <img class="slider-image" src="img/gallery3.png" alt="Image3">
+                <img class="slider-image" src="img/gallery4.png" alt="Image4">
+                <a class="slider-arrow left">&#10094;</a>
+                <a class="slider-arrow right">&#10095;</a>
+            </div>
+        </div>
+    </header>
+    <section class="info_salon">
+        <div class="container">
+            <div class="section_wrapper">
+                <div class="wrapper_content">
+                    <h1>Салон Красоты <br> TOPWAY</h1>
+                    <h6>Отзывы в Яндекс: <span>4.9</span></h6>
+                    <h6>Улуги: <span>более 20</span></h6>
+                    <h6>Работает: <span>с 9:00 до 19:00</span></h6>
+                </div>
+                <p>
+                    Модельная, авангардная или повседневная - для многих людей подбор прически является чем-то гораздо большим, нежели частью текущей заботы о своей внешности. Все знают, что новый имидж помогает улучшить настроение, поднять самооценку, добавить в жизнь позитива. В Салоне-парикмахерской Topway предлагают свои услуги мастера, к которым вы можете обратиться, если хочется привести прическу в порядок. При необходимости с ними всегда можно посоветоваться на тему нюансов ухода за волосами, а также доступных вариантов их укладки. Это особенно актуально именно в условиях широкого выбора, когда на рынке такое огромное количество средств для ухода, разобраться в которых подчас под силу лишь профессионалам.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="our_works">
+        <div class="container">
+            <h2>Наши работы</h2>
+            <div class="section_wrapper">
+                <img src="img/work1.png" alt="">
+                <img src="img/work2.png" alt="">
+                <img src="img/work3.png" alt="">
+            </div>
+            <a href="pages/news.html" class="link">Подробнее</a>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2>СВЯЗАТЬСЯ С НАМИ</h2>
+            <form action="php/server.php">
+                <label>
+                    <input type="text" name="name" placeholder="Ваше имя:" required>
+                </label>
+                <label>
+                    <input type="email" name="email" placeholder="Ваш Email:" required>
+                </label>
+                <label>
+                    <input type="tel" class="tel" name="phone" placeholder="Номер телефона:">
+                </label>
+                <label for=""></label><textarea name="text" id="" cols="30" rows="10" placeholder="Ваше сообшение:"></textarea>
+                <button>ОТПРАВИТЬ</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+                <img src="img/logo.svg" alt="logo">
+                <p>2023 © Салон красоты TOPWAY</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
